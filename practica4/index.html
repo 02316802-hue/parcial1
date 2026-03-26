@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>formularios - rivera vargas - 602</title>
+</head>
+<body>
+
+	<h2>formularios</h2>
+<h4> Karyme Rivera 602</h4>
+<p>los formularios son campos que permiten el ingreso de datos ala pagina, esto permite la interaccion del usuario.</p>
+
+<hr>
+
+<form method="get">
+	
+	<label>Nombre:</label>
+	<input type="text" name="nombre" placeholder="nombre completo" size="50" required>
+	<br>
+	<br>
+	<label>correo electronico:</label>
+	<input type="email" name="correo" placeholder="escribe tu correo" required size="50">
+
+	<br>
+	<br>
+
+	<label>contraseña:</label>
+	<input type="password" name="clave" placeholder="minimo 8 caracteres" minlength="8">
+	
+	<br>
+	<br>
+	<label>fecha de nacimiento:</label>
+	<input type="date" name="fecha" required>
+	<br>
+	<br>
+	<label>nacionalidad</label>
+	<select>
+		<option selected disabled> selecciona país</option>
+	<option>Mexico</option>
+	<option>Japón</option>
+	<option>Norcorea</option>
+	<option>Estados Unidos</option>
+	<option>Perú</option>
+	<option>Rusia</option>
+	<option>Siria</option>
+	<option>Brasil</option>
+	<option>china</option>
+	<option>India</option>
+	
+	</select>
+	
+	<br>
+	<br>
+	<label>selecciona tus pasatiempos:</label>
+	<br>
+	<br>
+	<input type="checkbox" name="">Leer <br>
+	<input type="checkbox" name="">Escuchar Musica <br>
+	<input type="checkbox" name="">Pintar <br>
+	<input type="checkbox" name="">Escribir <br>
+	<input type="checkbox" name="">Ver peliculas <br>
+
+	<label>Género:</label>
+	Hombre <input type="radio" name="género">
+	mujer <input type="radio" name="género">
+	Prefiero no decirlo
+	<input type="radio" name="género">
+	<br>
+	<br>
+	<label>Sube tu foto:</label>
+	<input type="file" name="Archivo">
+	<br>
+	<br>
+	<label> Escribe un mensaje:</label>
+	<br>
+	<br>
+	<textarea required placeholder="Escribe tu mensaje"></textarea>
+
+
+
+
+
+
+	<br>
+	<br>
+	<input type="submit" name="boton" value="contacta al 602">
+
+	<input type="reset" name=" limpiar">
+</form>
+
+<a href="../index.html">volver</a>
+</body>
+</html>
